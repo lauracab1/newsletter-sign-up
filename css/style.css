@@ -1,0 +1,81 @@
+html {
+  min-height: 100vh;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background-color: hsl(234, 29%, 20%);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 2rem;
+  width: 60%;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  margin : 0;
+}
+
+h2 {
+  font-size: initial;
+}
+
+.card-content-first, .card-content-second {
+  flex-basis: 50%;
+}
+
+.card-content-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem;
+}
+
+ul {
+  line-height: 2rem;
+  list-style-image: url("../assets/images/icon-list.svg");
+  padding-left: 30px;
+}
+
+li {
+  padding-left: .6rem;
+}
+
+input {
+  color: hsl(231, 7%, 60%);
+  padding: .8rem;
+  border: 2px solid lightgray;
+  border-radius: .5rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: hsl(235, 18%, 26%);
+  border-radius: .5rem;
+  border: none;
+  font-weight: 700;
+}
+
+button:hover {
+  background: linear-gradient(90deg, rgba(255, 88, 106), rgba(255, 146, 66));
+  box-shadow: 3px 6px 25px rgba(255, 88, 106, 0.5);
+}
+
